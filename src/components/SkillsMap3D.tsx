@@ -74,7 +74,6 @@ function SkillSphere({ skill, onSelect }: { skill: SkillNode; onSelect: (s: Skil
     groupRef.current.position.y = skill.position[1] + floatOffset
   })
 
-  const color = new THREE.Color(skill.color)
   const levelScale = skill.level / 5
 
   const handleClick = () => {
